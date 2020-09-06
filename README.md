@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  This is my portfolio it speaks more about me and the projects i have done.You are welcome to checking it out.
+  This is my pizza website where customers are able to order pizza at their own convinience.
 </td>
 </tr>
 </table>
