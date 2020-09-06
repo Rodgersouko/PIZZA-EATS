@@ -5,7 +5,7 @@ MIT License
 Copyright (c) [2020] [Rodgers Ouko]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (https://github.com/Rodgersouko/PIZZA-EATS.git), to deal
+of this software and associated documentation files (https://rodgersouko.github.io/PIZZA-EATS/), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
