@@ -1,5 +1,5 @@
 # [My-portfolio](https://rodgersouko.github.io/PIZZA-EATS/)
-# portfolio
+# PIZZA EATS
 <table>
 <tr>
 <td>
