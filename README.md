@@ -35,8 +35,9 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 ## Built with 
 
 - HTML
-- CSShttps:
+- CSS
 - JavaScript
+- Bootstrapt
 
 ## [License](https://rodgersouko.github.io/PIZZA-EATS/)
 
