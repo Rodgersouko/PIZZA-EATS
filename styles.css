@@ -54,7 +54,7 @@ img{
 .footer{
     text-align: center;
 }
-a:hover{
+.media a:hover{
     background-color:goldenrod;
 
     border-radius: 50%;
