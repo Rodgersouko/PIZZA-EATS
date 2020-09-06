@@ -10,17 +10,20 @@ img{
     background-color: goldenrod;
 }
 #aboutus{
-    background-color: goldenrod;
     text-align: left;
     padding: 50px;
     margin-top: 40px;
     margin-left: 0px;
 }
 #about{
-    background-color: green;
     background-image: url("./images/pizza1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1500px;
-    height: 800px;
+    /* width: 1500px;
+    height: 800px; */
+    padding: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
 }
