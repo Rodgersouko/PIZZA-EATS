@@ -24,7 +24,7 @@ $(document).ready(function() {
             return parseInt(pizzaNumber);
         }
         //object for user order
-        function Order(flavor, size, crust, topping, quantity) {
+        function order(flavor, size, crust, topping, quantity) {
             this.newFlavor = flavor;
             this.newSize = size;
             this.newCrust = crust;
@@ -32,8 +32,17 @@ $(document).ready(function() {
             this.newQuantity = quantity;
         }
         //saving user order, getting totals for order
-        var userInput = new Order(flavor(), size(), crust(), topping(), number());
+        var userInput = new order(flavor(), size(), crust(), topping(), number());
         var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) * userInput.newQuantity;
+
+        //alert and prompt for user
+        alert("Your charges for Pizza" + totalCost);
+        prompt("enter your email address");
+        prompt("enter your phone number");
+        prompt("enter your location");
+        alert("Your pizza will be delivered");
+
+        $("#form").reset();
 
 
         event.preventDefault();

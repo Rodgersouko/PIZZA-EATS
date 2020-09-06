@@ -7,166 +7,219 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+
 </head>
 <body>
-    <div class="jumbotron">
-        <div class="nav">
-            <h1 style= "font-family: fantasy; color: goldenrod;">Pizza Eats</h1>
-            <div class="navbar">
-              <h4>
-                <nav class="nav">
-                  <p><a href="#home">Home</a></p>
-                  <p></p><a href="#about">About us</a></p>
-                  <p></p><a href="#menu">Menu</a></p>
-                  <p></p><a href="#contacts">Contacts</a></p>
-                </nav>
-              </h4>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid" id="about"><br><br><br><br><br>
-      <div class="home"><br><br><br>
-        <h1 style="color: white;">PIZZA EATS</h1>
-        <h2 style="color: white;">SIMPLY DELICIOUS ...<br><br> GET YOURS<br>NOW!!!<br><br<br><br><br><br></h2>
-        <div id="mouse">
-          <a href="#menu"><P style="color: white;"> GET YOUR OFFER NOW!!</P></a> 
-        </div><br><br>
-      </div>
-      <br><br><br><br>
-    </div><br><br><br><br>
-    <div class="container-fluid" style="background-color: grey;"><br><br><br><br>
-        <div class="row">
-            <div class="col-md-6" style="text-align: center;">
-              <div class="mySlides">
-                <p>Something Meaty</p>
-                <a href="#"><img src="./images/pizza1.jpg" alt="copier"></a>
-              </div>  
-              <div class="mySlides">
-                <p>Beef STeak & Mushroom</p>
-                <a href="#"><img src="./images/pizza2.jpg" alt="copier"></a>
-              </div>
-              <div class="mySlides">
-                 <p>Tikka Chicken</p>
-                 <a href="#"><img src="./images/pizza3.jpg" alt="tech"></a>
-              </div>     
-              <div class="mySlides">
-                  <p>Chicken & Mushroom</p>
-                  <a href="#"><img src="./images/pizza4.jpg" alt="plan"></a>         
-              </div>      
-              <div class="mySlides">
-                  <p>Original Veggie</p>
-                  <a href="#"><img src="./images/pizza5.jpg" alt="paper"></a>
-              </div><br><br><br>
-              <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-              </div> 
-            </div>
-            <div class="col-md-6" id="aboutus">
-              <h3>About Us</h3>
-              <p class="para">Pizza Easts Restaurants that has been in pizza business for over 10years now and offers a very unique atmosphere for customers in 
-                addition to home delivery services for all pizza orders and we know that pizza is a family meal 
-                which is popular around the world with diverse culture and unique taste for everybite ,Pizza Eats lets your share the taste of love with your loved ones.</p>
-            </div>
-            </div>
-        </div>
-    </div><br><br><br>
-    <div class="container-fluid order" id="menu">
-      <div class="order-overlay">
-        <div class="controls-top text-center" id="Order-now"><br><br><br>
-          <h2 style="background-color: green;">Order Here</h2>
-        </div>
-        <h2>Order your pizza here and we will deliver it to you at your door step!</h2><br><br><br>
-        <div class="row" style="background-color: green;">
-            <div class="col-sm-5" id="form">
-              <form class="text-center" id="text-center">
-                <label>pizza Flavor</label><br>
-                <select class="flavors" id="flavor" required><br>
-                  <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
-                  <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
-                  <option label="Mushrooms" value="350">Mushrooms</option>
-                  <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
-                  <option label="Beef pizza" value="500">Beef pizza</option>
-                  <option label="Sausage pizza" value="650">Sausage pizza</option>
-                </select><br>
-                <br><label>pizza Size</label><br>
-                <select class="sizes" id="size" required><br>
-                  <option label="Regular" value="300">Regular</option>
-                  <option label="Medium" value="600">Medium</option>
-                  <option label="Large" value="1200">Large</option>
-                </select><br>
-                  <label>pizza Crust</label><br>
-                  <select class="crust" id="crust" required><br>
-                    <option label="Thin Crust" value="150">Thin Crust</option>
-                    <option label="Thick Crust" value="200">Thick Crust</option>
-                    <option label="Deep Crust" value="380">Deep Crust</option>
-                    <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
-                    <option label="Stuffed Crust" value="345">Stuffed Crust</option>
-                  </select><br>
-                  <label>pizza Topping</label><br>
-                  <select class="toppings" id="topping" required><br>
-                    <option label="Pepperoni" value="100">Pepperoni</option>
-                      <option label="Mushrooms" value="300">Mushrooms</option>
-                      <option label="Onions" value="120">Onions</option>
-                      <option label="Sausage" value="124">Sausage</option>
-                      <option label="Green peppers" value="80">Green peppers</option>
-                   </select><br>
-          <br><label>Number of pizza</label><br>
-          <input value="" required placeholder="number of pizza" id="quantity"></input><br>
-          <div class="button">
-            <br><br><button type="submit" id="btn" 
-            
-            label="">submit</button>
-          </div>
-        </form>
-       </div><br><br><br><br>
-                    </div>
-                  </form>
-              </div>
-            </div>
-        </div>
+  <div class="jumbotron">
+    <div class="nav">
+      <h1 style="font-family: fantasy; color: goldenrod;">Pizza Eats</h1>
+      <div class="navbar">
+        <h4>
+          <nav class="nav">
+            <p><a href="#home">Home</a></p>
+            <p></p><a href="#about">About us</a></p>
+            <p></p><a href="#menu">Menu</a></p>
+            <p></p><a href="#contacts">Contacts</a></p>
+          </nav>
+        </h4>
       </div>
     </div>
-    <div class="container-fluid" style="text-align: center; background-color: gray;">
-      <footer class="footer">    
-        <div class="media">
-            <h2>Contacts</h2><br>
-              <p>Tell +254 00326234<br>+254 27489293</p><br>
-              <a href="https://mail.google.com/mail/u/0/#inbox">easyenergy@Solutions.com</a><br>
-              <p>P.O BOX 21188<br>Easy Energy Solutions<br>Along NGong Road<br>Nairobi Kenya</p><br>
-            &copy2020 EASY DOCUMENT SOLUTIONS<br><br>
-            <a href="https://www.facebook.com/" class="fa fa-facebook"></a><br>
-            <a style="color: indianred;"href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram"></a><br>
-            <a href="https://twitter.com/login" class="fa fa-twitter"></a><br>
-            <a style="color: green;" href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a><br>
-            <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a><br>       
-        <div>    
+  </div>
+  <div class="container-fluid" id="about"><br><br><br><br><br>
+    <div class="home"><br><br><br>
+      <h1 style="color: white;">PIZZA EATS</h1>
+      <h2 style="color: white;">SIMPLY DELICIOUS ...<br><br> GET YOURS<br>NOW!!!<br>
+        <br<br><br><br><br>
+      </h2>
+      <div id="mouse">
+        <a href="#menu">
+          <P style="color: white;"> GET YOUR OFFER NOW!!</P>
+        </a>
+      </div><br><br>
+    </div>
+    <br><br><br><br>
+  </div><br><br><br><br>
+  <div class="container-fluid" style="background-color: grey;"><br><br><br><br>
+    <div class="row">
+      <div class="col-md-6" style="text-align: center;">
+        <div class="mySlides">
+          <p>Something Meaty</p>
+          <a href="#"><img src="./images/pizza1.jpg" alt="copier"></a>
+        </div>
+        <div class="mySlides">
+          <p>Beef STeak & Mushroom</p>
+          <a href="#"><img src="./images/pizza2.jpg" alt="copier"></a>
+        </div>
+        <div class="mySlides">
+          <p>Tikka Chicken</p>
+          <a href="#"><img src="./images/pizza3.jpg" alt="tech"></a>
+        </div>
+        <div class="mySlides">
+          <p>Chicken & Mushroom</p>
+          <a href="#"><img src="./images/pizza4.jpg" alt="plan"></a>
+        </div>
+        <div class="mySlides">
+          <p>Original Veggie</p>
+          <a href="#"><img src="./images/pizza5.jpg" alt="paper"></a>
+        </div><br><br><br>
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      <div class="col-md-6" id="aboutus">
+        <h3>About Us</h3>
+        <p class="para">Pizza Easts Restaurants that has been in pizza business for over 10years now and offers a very
+          unique atmosphere for customers in
+          addition to home delivery services for all pizza orders and we know that pizza is a family meal
+          which is popular around the world with diverse culture and unique taste for everybite ,Pizza Eats lets your
+          share the taste of love with your loved ones.</p>
+      </div>
+    </div>
+  </div>
+  </div><br><br><br>
+  <div class="container-fluid order" id="menu">
+    <div class="order-overlay">
+      <div class="controls-top text-center" id="order-now"><br><br><br>
+        <h2 style="background-color: green;">Order Here</h2>
+      </div>
+      <h2>Order your pizza here and we will deliver it to you at your door step!</h2><br><br><br>
+      <div class="row" style="background-color: green;">
+        <div class="col-sm-5" id="form">
+
+          <!-- <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+                          <select class="flavors" id="flavor" required>
+                            <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
+                            <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
+                            <option label="Mushrooms" value="350">Mushrooms</option>
+                            <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+                            <option label="Beef pizza" value="500">Beef pizza</option>
+                            <option label="Sausage pizza" value="650">Sausage pizza</option>
+                          </select><br>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+                          <select class="sizes" id="size" required>
+                            <option label="Regular" value="300">Regular</option>
+                            <option label="Medium" value="600">Medium</option>
+                            <option label="Large" value="1200">Large</option>
+                          </select><br>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+                          <select class="crust" id="crust" required>
+                            <option label="Thin Crust" value="150">Thin Crust</option>
+                            <option label="Thick Crust" value="200">Thick Crust</option>
+                            <option label="Deep Crust" value="380">Deep Crust</option>
+                            <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+                            <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+                          </select><br>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <select class="toppings" id="topping" required>
+                <option label="Pepperoni" value="100">Pepperoni</option>
+                <option label="Mushrooms" value="300">Mushrooms</option>
+                <option label="Onions" value="120">Onions</option>
+                <option label="Sausage" value="124">Sausage</option>
+                <option label="Green peppers" value="80">Green peppers</option>
+              </select><br>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form> -->
+
+
+          <form class="text-center" id="text-center">
+            <label>pizza Flavor</label><br>
+            <select style="width: 300px;height: 30px;"class="flavors" id="flavor" required><br>
+              <option label="chicken alfredo pizza" value="800">Chicken Alfredo Pizza</option>
+              <option label="Taco Quesadila Pizza" value="1200">Taco Quesadila Pizza</option>
+              <option label="Mushrooms" value="350">Mushrooms</option>
+              <option label="Macaroni And Cheese Pizza" value="700">Macaroni And Cheese Pizza</option>
+              <option label="Beef pizza" value="500">Beef pizza</option>
+              <option label="Sausage pizza" value="650">Sausage pizza</option>
+            </select><br>
+            <br><label>pizza Size</label><br>
+            <select style="width: 300px; height: 30px;" class="sizes" id="size" required><br>
+              <option label="Regular" value="300">Regular</option>
+              <option label="Medium" value="600">Medium</option>
+              <option label="Large" value="1200">Large</option>
+            </select><br>
+            <label>pizza Crust</label><br>
+            <select style="width: 300px; height: 30px;" class="crust" id="crust" required><br>
+              <option label="Thin Crust" value="150">Thin Crust</option>
+              <option label="Thick Crust" value="200">Thick Crust</option>
+              <option label="Deep Crust" value="380">Deep Crust</option>
+              <option label="Cheese Filled Crust" value="500">Cheese Filled Crust</option>
+              <option label="Stuffed Crust" value="345">Stuffed Crust</option>
+            </select><br>
+            <label>pizza Topping</label><br>
+            <select style="width: 300px; height: 30px;"class="toppings" id="topping" required><br>
+              <option label="Pepperoni" value="100">Pepperoni</option>
+              <option label="Mushrooms" value="300">Mushrooms</option>
+              <option label="Onions" value="120">Onions</option>
+              <option label="Sausage" value="124">Sausage</option>
+              <option label="Green peppers" value="80">Green peppers</option>
+            </select style="width: 300px; height: 30px;"><br>
+            <br><label>Number of pizza</label><br>
+            <input value="" required placeholder="number of pizza" id="quantity"></input><br>
+            <div class="button">
+              <br><br><button type="submit" id="btn" label="">submit</button>
+            </div>
+          </form>
+        </div><br><br><br><br>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="container-fluid" style="text-align: center; background-color: gray;">
+    <footer class="footer">
+      <div class="media">
+        <h2>Contacts</h2><br>
+        <p>Tell +254 00326234<br>+254 27489293</p><br>
+        <a href="https://mail.google.com/mail/u/0/#inbox">easyenergy@Solutions.com</a><br>
+        <p>P.O BOX 21188<br>Easy Energy Solutions<br>Along NGong Road<br>Nairobi Kenya</p><br>
+        &copy2020 EASY DOCUMENT SOLUTIONS<br><br>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a><br>
+        <a style="color: indianred;" href="https://www.instagram.com/accounts/login/?hl=en"
+          class="fa fa-instagram"></a><br>
+        <a href="https://twitter.com/login" class="fa fa-twitter"></a><br>
+        <a style="color: green;" href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a><br>
+        <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a><br>
+        <div>
     </footer>
-    </div>
-    <script>
-        var slideIndex = 0;
-        showSlides();
-        
-        function showSlides() {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex > slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 5 seconds
-        }
-    </script>
-    <script src="./script.js"></script>
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 5 seconds
+    }
+  </script>
+  <script src="./script.js"></script>
 </body>
 </html>
