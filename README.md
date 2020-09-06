@@ -1,4 +1,4 @@
-# [My-portfolio](https://rodgersouko.github.io/PIZZA-EATS/)
+# [PIZZA-EATS](https://rodgersouko.github.io/PIZZA-EATS/)
 # PIZZA EATS
 <table>
 <tr>
