@@ -10,10 +10,14 @@ img{
     background-color: goldenrod;
 }
 #aboutus{
+    /* background-color: goldenrod; */
+    /* padding: 50px; */
+    /* margin-top: 40px; */
+    /* margin-left: 0px; */
     text-align: left;
-    padding: 50px;
-    margin-top: 40px;
-    margin-left: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
 }
 #about{
     background-image: url("./images/pizza1.jpg");
@@ -26,4 +30,23 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: x-large;
+}
+.para{
+    background-color: goldenrod;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 50px;
+}
+.media{
+    color:black;
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width:30px;
+    color:blue;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
