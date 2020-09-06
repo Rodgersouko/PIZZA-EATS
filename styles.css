@@ -1,6 +1,7 @@
-.row{
-    
-}
+.navi{
+    text-align: center;
+    color: black;
+}    
 img{
     width: 800px;
     height: 500px;
@@ -27,7 +28,7 @@ img{
     height: 800px; */
     padding: 50px;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     font-weight: bold;
     font-size: x-large;
 }
