@@ -54,3 +54,21 @@ img{
     background-color: black;
     opacity: 50%;
 }
+}#mouse{
+    padding-top : 20px;
+    margin-top: 20px;
+    padding-bottom: 20px; 
+    width: 10px;
+    height: 10px;
+    /* animation-iteration-count: infinite; */
+  }
+  #mouse {
+    animation: bounce 2s infinite;
+  }@keyframes bounce {
+    40% {
+      transform: translateY(-50px);
+    }
+    60% {
+      transform: translateY(-30px);
+    }
+  }
