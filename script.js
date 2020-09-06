@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $("#form").submit(function (event) {
+
         //functions to get user input from the forms
         function flavor() {
             var pizzaFlavour = document.getElementById("flavor").value;
@@ -30,8 +31,13 @@ $(document).ready(function() {
             this.newTopping = topping;
             this.newQuantity = quantity;
         }
-        //saving user order
+        //saving user order, getting totals for order
         var userInput = new Order(flavor(), size(), crust(), topping(), number());
+        var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) * userInput.newQuantity;
 
+
+        event.preventDefault();
+            
+                                  
     });
 });
