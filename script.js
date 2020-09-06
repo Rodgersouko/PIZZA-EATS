@@ -30,6 +30,8 @@ $(document).ready(function() {
             this.newTopping = topping;
             this.newQuantity = quantity;
         }
+        //saving user order
+        var userInput = new Order(flavor(), size(), crust(), topping(), number());
 
     });
 });
