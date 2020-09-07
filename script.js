@@ -36,7 +36,7 @@ $(document).ready(function() {
         var totalCost = (userInput.newSize + userInput.newCrust + userInput.newTopping + userInput.newFlavor) * userInput.newQuantity;
 
         //alert and prompt for user
-        alert("Your charges for Pizza" + totalCost);
+        alert("Your total charges for Pizza is" +' '+ totalCost+' '+"KSH");
         prompt("enter your email address");
         prompt("enter your phone number");
         prompt("enter your location");
